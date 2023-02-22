@@ -1,0 +1,76 @@
+Microsoft Windows [Version 10.0.22621.1265]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\doria\Documents\School\SistemasEmbebidos\Comunicacion_y_IoT\Practica1\mySafeAndSecureNetwork-master\pythonScripts>python myssn_client.py
+myssn INFO: connecting to 192.168.0.102 port 7
+$ Hi
+myssn INFO: sending data: b'Hi'
+myssn INFO: encrypted message: b'\xa5\xa0\n\xc9\xf7;\xd1F,w\x10"phP\xcd'
+myssn INFO: tx crc32 = 947306759, crc bytes = b'\x07\xc1v8'
+Reveived bytes b'\x1c\x01\xe8\xae\x84\xc6L\x15\x8e+u\x9b\xab\xf7\xbc\xfa\xe2B\x87\xc0'
+myssn DATA: b'hola'
+DATA: b'hola'
+$ Dos
+myssn INFO: sending data: b'Dos'
+myssn INFO: encrypted message: b't\xc4\xde3\xa1\\\x00Vj\xa5\x01\xd8|\x08N\x9b'
+myssn INFO: tx crc32 = 2898256964, crc bytes = b'D\xe4\xbf\xac'
+Reveived bytes b'\xa8\xb6\xbd\xd6m+T\xa7\x1em\xfc\xe8y\x94\x0b\xe8$j<\x99'
+myssn DATA: b'Dos Palabras'
+DATA: b'Dos Palabras'
+$ Tres tres
+myssn INFO: sending data: b'Tres tres'
+myssn INFO: encrypted message: b'4\xd4\x8fV[\x96F\xf0\xc7\xc1\\\x84\xc5t\x95z'
+myssn INFO: tx crc32 = 231722241, crc bytes = b'\x01\xcd\xcf\r'
+Reveived bytes b"\xcei\xc2P\xc8\x9c\xa0\xc2Z*\\\x03\x15=\x0c?\x1e\xdf\xd4\xd3\xcb\te\xf3H\x11o\xd8Y\xdbI\x9b\xa8g\xfb'"
+myssn DATA: b'tres palabras aqui'
+DATA: b'tres palabras aqui'
+$ Cuatro cuatro cuatro
+myssn INFO: sending data: b'Cuatro cuatro cuatro'
+myssn INFO: encrypted message: b'\xcd\xa3r(\xf4\x07\xf5A\xc4p\xe8\x8fa\xeb|\x0c\xf2\xc9\xfd\x0f\xa9\x12 \xba\xf7z\xf4!\x04\x17\x1f/'
+myssn INFO: tx crc32 = 1714034392, crc bytes = b'\xd8\x16*f'
+Reveived bytes b'\xc8\xc9\xf8\xd2\xbf\xe7r\xcc\x97\x0cr\xf6&\x97\xf1\x12\xc1B\x87\xc8'
+myssn DATA: b'TODO MAYUSCULAS'
+DATA: b'TODO MAYUSCULAS'
+$ CINCO CINCO CINCO
+myssn INFO: sending data: b'CINCO CINCO CINCO'
+myssn INFO: encrypted message: b'\x96[\xbdn\x19\x94Z\x16|\xdac@\xcbw\xf4H\x04\x03#\xa8\xad\xf3\x19\xbd\x94y\xc0\x91by\xb7\x81'
+myssn INFO: tx crc32 = 3328734857, crc bytes = b'\x89vh\xc6'
+Reveived bytes b'O\x19E\x8b\xc0\x99K\xaf\xaa\xf6\xc3\xf5\xd6\xa7\x96\xee%9\x0bk\xea\x8d`U\xf52\xc0\xe8\x07[\x9d.M\x1e\xf0\x8f'
+myssn DATA: b'MaYuScULaS y MiNuScUlAs'
+DATA: b'MaYuScULaS y MiNuScUlAs'
+$ sEiS sEiS sEIS SeiS
+myssn INFO: sending data: b'sEiS sEiS sEIS SeiS'
+myssn INFO: encrypted message: b'\x87\x89\x1e\xc2\xe8\x1c]mjVR\xd0\xe0\xfeD\xe1\x81\x8d\xdb/\xb9P\xc5R\x9a\xf5\x9b\x089Y[\x90'
+myssn INFO: tx crc32 = 2640626619, crc bytes = b'\xbb\xc3d\x9d'
+Reveived bytes b'\x0f(g\xb3\x1a\xc6\x1f\x90\x8cp\x8d\xa9\x932\x80\xd9L\x13\xa4\x1e'
+myssn DATA: b'si!'
+DATA: b'si!'
+$ No!
+myssn INFO: sending data: b'No!'
+myssn INFO: encrypted message: b'\x14*\xde\xe5\xf6{\x17dAb\xab\xa4\xf8T$g'
+myssn INFO: tx crc32 = 1514633638, crc bytes = b'\xa6yGZ'
+Reveived bytes b'\x06\xb6\xa5\\\xe2S=^\xa2\xca\xaa\xcb\xedZ\x082\xfd\xaf\x19\xf4\x95\xb0Et\x13\xea61\x1f\xe0\xeb\xe0\x06\x12\x8c\xf8'
+myssn DATA: b'Numeros y letras 1234567890'
+DATA: b'Numeros y letras 1234567890'
+$ Siete 7 7 7 7 7 Siete
+myssn INFO: sending data: b'Siete 7 7 7 7 7 Siete'
+myssn INFO: encrypted message: b'1\xff\xb7\xc4\x94RN\x1aq8\xa2\x8dtT\xe6\xea\xb8G\xdc\x11\x03n\x0f\x9b\xc6\xe4Q\xf6\x1e\xebH\x94'
+myssn INFO: tx crc32 = 4106577113, crc bytes = b'\xd9d\xc5\xf4'
+Reveived bytes b'\xa5\x7f[\x10\xfb\x9b\x1fu\x939\xbd\x02\x1f\xd0J\x17M\x7f\xae\xbc'
+myssn DATA: b'!@#$%^&'
+DATA: b'!@#$%^&'
+$ !@#%^&&^%$)(
+myssn INFO: sending data: b'!@#%^&&^%$)('
+myssn INFO: encrypted message: b'\xdcM_\xb2\xed\\\xb7\xedpD\xe1K\xb3\x1b\r\xeb'
+myssn INFO: tx crc32 = 792233120, crc bytes = b'\xa0\x848/'
+Reveived bytes b'\xdb\xb7ZV<\xd5\x94\xa2\x04\xc3\x0c\xd4w\xf2\xc5\xe6\x84\xdf=\xb6\xf8\xb9\xa2-@\xa3,\xd6\xd2\x8e\x91T\xd10O\x18\xc9\xfd\x93\x83 )\xb1\xb6w\xba\x8b\xd8du\x1e\xbb\xdb\x84\xb9=Xe\xa3F+$\xf3\x89\x0f\xe3Bx\xbb\xd6\x96lK\xf8?H/Q\x15\xfb\xb1\xc3=g*\xe5Ey\xbd\xb3\xbe\x98\xb1\x8b\x0b*\x13\xe3\xa1\xcc\x97\xef\x8c\xcd#\xe8\x8aG|d\x8e\xb8P<\xc5\xcd'
+myssn DATA: b'TCP/IP stands for Transmission Control Protocol/Internet Protocol and isa suite of communication protocols.'
+DATA: b'TCP/IP stands for Transmission Control Protocol/Internet Protocol and is a suite of communication protocols.'
+$ A typical TCP client and server application issues a sequence of TCP system calls toattain certain functions.
+myssn INFO: sending data: b'A typical TCP client and server application issues a sequence of TCP system calls to attain certain functions.'
+myssn INFO: encrypted message: b'=qW\xfc\xc6-[\xbfn\x93\xd1$\xef\xb6\xb2,\\\x9e\xb9\xfct\x81\x17Y7)\xaf\xe5\xc7\x9f\xfd\xcaCo\xe2\xa9\x99J\xea\xb27\xb3\xfeF\xca\xc0;\x12\x857J\xc5\x97\xd7\xdd\x02\\|w\x03>\x94\xe9\x9a\x0c\xd9\xf1\xf9\x8f-~\x17xp4\x9b\xd1X\x1b\xaa\xc7\x8d!H\xe0\xdd\xc9\x99Z?\x12y\xaa\x12\x0c\xfc\x94\xbe\r\x06{\xd8}\xe9\x06\x9d\x99\xd4\x9d56_'
+myssn INFO: tx crc32 = 3008729428, crc bytes = b'T\x91U\xb3'
+Reveived bytes b'\xa8\xb6\xbd\xd6m+T\xa7\x1em\xfc\xe8y\x94\x0b\xe8$j<\x99'
+myssn DATA: b'Dos Palabras'
+DATA: b'Dos Palabras'
+$

@@ -1,0 +1,11 @@
+../source/enc_server_layer.c:30:18:get_socket	16	static
+../source/enc_server_layer.c:44:18:server_mode	24	static
+../source/enc_server_layer.c:72:18:client_mode	24	static
+../source/enc_server_layer.c:95:6:close_connection	16	static
+../source/enc_server_layer.c:107:13:InitCrc32	32	static
+../source/enc_server_layer.c:126:10:encrypt	32	static
+../source/enc_server_layer.c:162:9:decrypt	32	static
+../source/enc_server_layer.c:195:10:calculate_crc	32	static
+../source/enc_server_layer.c:216:11:get_msg_components	56	static
+../source/enc_server_layer.c:255:6:receive	64	static
+../source/enc_server_layer.c:313:6:send	64	static
